@@ -14,7 +14,18 @@
           <nav class="navbar navbar-inverse navbar-fixed-top" id="navBar">
               <div class="container-fluid" id="logoMenu">
                   <div class="navbar-header">
-                      <a class="navbar-brand" href="index.php"><font color="#000000">Mural IFSP</font></a>
+                      <a class="navbar-brand" href="index.php">
+                    	<a class="navbar-brand" href="index.php">
+                        	<font color="#333333">
+                            	<b>
+                                <font size="+3">
+                            		Mural
+                            	</font> 
+	                        
+                               	<span>IFSP</span>
+                                </b>
+                            </font></a>
+                    </a>
                   </div>
                   
                   <ul class="nav navbar-nav">
@@ -157,80 +168,81 @@
                       </div>
                   </div>
       
+      <br>      <br>
       
-              <div id="principal2" style="padding-top:20px">
-                  <div id="carrousel">
-                     <div class="row">
-                      <div class="col-md-12">
-                              <br/>
-                         </div>
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <div class="container">
-                                          <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                              <!-- Indicators -->
-                                                <ol class="carousel-indicators">
-                                                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                                                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                                                </ol>
-                                  
-                                                    <!-- Wrapper for slides -->
-                                                    <div class="carousel-inner">
-                                                      <div class="item active">
-                                                        <img src="img/calça.png" alt="Praticidade">
-                                                        <div class="carousel-caption">
-                                                          <!--<h3>Los Angeles</h3>-->
-                                                          <!--<p>LA is always so much fun!</p>-->
-                                                        </div>
-                                                      </div>
-                                  
-                                                      <div class="item">
-                                                        <img src="img/fone.png" alt="Chicago">
-                                                        <div class="carousel-caption">
-                                                        </div>
-                                                      </div>
-                                  
-                                                      <div class="item">
-                                                        <img src="img/notas.png" alt="New York">
-                                                        <div class="carousel-caption">
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                  
-                                                    <!-- Left and right controls -->
-                                                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                                      <span class="glyphicon glyphicon-chevron-left"></span>
-                                                      <span class="sr-only">Anterior</span>
-                                                    </a>
-                                                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                                      <span class="glyphicon glyphicon-chevron-right"></span>
-                                                      <span class="sr-only">Proximo</span>
-                                                    </a>
+                  
+                  <!--  CARROSEL -->                  
+                          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                              <!-- Indicators -->
+                              <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                              </ol>
+                            
+                              <!-- Wrapper for slides -->
+                              <div class="carousel-inner">
+                                <div class="item active">
+                                  <img src="img/notas.png">
+                                  <div class="carousel-caption">
                                   </div>
+                                </div>
+                            
+                                <div class="item">
+                                  <img src="img/fone.png">
+                                  <div class="carousel-caption">
+                                  </div>
+                                </div>
+                            
+                                <div class="item">
+                                  <img src="img/calça.png">
+                                  <div class="carousel-caption">
+                                  </div>
+                                </div>
                               </div>
-                          </div>
-                      </div>
-                   </div>  
-              </div>
+                            
+                              <!-- Left and right controls -->
+                              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                         </div>
+                  
+                  
+                  
+                  
   
           <div id="principal3">
               <div id="indexBox2">
               <div class="container-fluid">
                 <h1>MAG Notas: Como funciona?</h1>      
-                <p>Lorem Ipsum
-  "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-  "Não há ninguém que ame a dor por si só, que a busque e queira tê-la, simplesmente por ser dor..."
-  
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum velit at quam sagittis, vitae hendrerit mi euismod. Ut maximus ultricies quam. Vivamus quis lacus finibus, rhoncus lacus id, varius ante. Aliquam at ante pellentesque, efficitur velit vel, porta lorem. Curabitur nisi tortor, aliquam eu pellentesque in, blandit eu nibh. Etiam et augue rutrum, fermentum nibh sit amet, dictum diam. Pellentesque ultricies et erat a dapibus. Suspendisse mollis nulla in velit tincidunt, id ultrices orci pulvinar. In tempor dolor at ornare tempus. Curabitur in sagittis quam, id porta justo. Quisque rhoncus non erat eu dapibus. Duis eleifend dolor velit, eu tristique lectus maximus eu.
-  
-  Etiam dignissim cursus libero eget luctus. Cras dapibus blandit augue, sodales tempus velit facilisis at. Nulla vitae placerat ex. Nunc lobortis elit lorem, vel convallis ex congue rhoncus. Quisque consectetur semper ipsum, iaculis blandit justo elementum vitae. Mauris congue risus non justo efficitur scelerisque. Nunc euismod massa nec magna rhoncus, eu rhoncus justo faucibus. Integer consectetur malesuada purus, sed porttitor ex semper quis. Nulla tempus aliquet sapien, vel auctor ipsum sodales at. In hac habitasse platea dictumst. Aenean at nisi molestie, dictum mauris ut, luctus urna. Fusce scelerisque pellentesque enim. Nullam laoreet a libero quis congue. Aliquam leo dolor, euismod eget sapien et, gravida gravida nunc.
-  
-  Suspendisse nisl tellus, placerat ac placerat sit amet, egestas sagittis sapien. Nam luctus quam vel scelerisque sodales. Proin lectus mauris, convallis non mattis ac, dignissim et nisl. Duis finibus metus vitae lectus facilisis gravida. Suspendisse quis mattis eros. Suspendisse suscipit lorem ac tempus interdum. Aenean in odio vel nisl finibus dictum. Aliquam non neque aliquet diam molestie scelerisque. Mauris feugiat nisi et accumsan dignissim. Vestibulum pretium est lorem, id ultricies turpis convallis quis. Curabitur efficitur arcu dictum, sagittis urna non, semper tortor.
-  
-  Suspendisse gravida urna in arcu egestas accumsan. Sed id efficitur eros. Maecenas ac erat congue nunc sagittis tristique vitae vitae quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sollicitudin erat erat, nec feugiat ligula accumsan consequat. Vivamus consequat dui a metus placerat ultricies. Integer aliquam turpis non lacus sodales placerat. Duis malesuada auctor volutpat. Nullam a pretium ligula, elementum laoreet lacus. Nulla at porttitor ligula.
-  
-  Pellentesque porttitor eu tellus non aliquet. Pellentesque feugiat bibendum nunc eget tempor. Nunc et quam magna. Vestibulum tincidunt, sem et venenatis accumsan, ex arcu porttitor orci, in euismod urna nisl vitae urna. Curabitur auctor fermentum nisi, non luctus augue molestie vitae. Nullam vehicula hendrerit purus, ut condimentum felis tempor vitae. Aenean ut pharetra tellus, vel interdum libero. Aliquam convallis iaculis sollicitudin. Phasellus id lacinia nisl. Nunc id laoreet erat. Duis nec purus eu eros mattis interdum..</p> 
+                <p>MagNotas trás um novo sistema de notas compartilhadas, adicione ao quadro, 
+                notas de duração pré definidas em tempo real, não se preocupe em ter que remover 
+                notas antigas, vai dar carona e sai em 1 minuto? Deixe uma nota verde! Tem uma festa 
+                no fim de semana? Deixe uma nota rosa! Se o foco é Acadêmico deixe uma nota azul 
+                ou se não tiver um assunto específico utiliza a amarela!</p>
+				<p>Defina suas notas por categoria, assim fica muito mais fácil localizar e controlar 
+                suas durações, tenha certeza que seu aviso vai ser notado!</p>
+				<p>Crie notas de forma simples e rápida, faça já seu cadastro e passe a desfrutar de todos 
+                os recursos. É rápido e prático, não gaste papel e caneta, economize em notas amassadas, 
+                apenas edite o que foi salvo!</p>
+				<p>Nosso objetivo é expandir ainda mais as funcionalidades do Magnotas sem deixar a 
+                simplicidade de lado. Afinal, notas são boas por esse motivo!</p>
+				<br><br>
+				<p>Sobre: o grupo MAG é formado por três estudantes de ADS (Análise e Desenvolvimento de 
+                Sistemas) no Instituto Federal De São Paulo, com o objetivo de iniciar estudos em 
+                desenvolvimento web. Em um dos projetos, surgiu a ideia de criação de algo simples que pudesse
+                substituir o mural de avisos do campus, algo que fosse tão prático quanto, e muito mais visível, 
+                MAGnotas é um desafio qual acreditamos, venha fazer parte dessa equipe!</p>
+				<br /><br />
+
+				<p>
+				Disponível para Navegador e Android, futuramente para outras plataformas.</p>
+</p> 
                           
               </div>
            

@@ -1,7 +1,26 @@
 /* CSS Document */
 
+
+.textNavBar{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+
+/* navbar */
+.navbar-inverse .navbar-nav > li > a {
+    color: #000;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.navbar-brand span{
+	color:  #E6E6E6;
+}
+
+
+
 body{
-	background:url(../img/1.png);
+	background-color:#F4F4F4;
 }
 
 #principal{
@@ -20,7 +39,7 @@ body{
 }
 
 #navBar{
-	background-image:url(../img/back3.jpg);
+	background-color:#B5B5B5;
 	
 	}
 	
@@ -93,13 +112,18 @@ p{
 }
 
 #painel{
-	background-color:#6F3;
+	background-color:#C9FF93;
 	min-height:300px;
 	width:90%;
 	margin-left: auto;
 	margin-right: auto;	
 	overflow:hidden;
 	position:relative;
+	border-radius: 15px;
+	box-shadow: 5px 5px 3px #D3D3D3;
+	
+	/*border-style: solid;
+	border-width:thick;*/
 }
 
 #painel2{
@@ -120,11 +144,13 @@ p{
 	margin-right: auto;	
 	text-align:center;
 	padding-top:20px;
+	padding-right:10px;
+	padding-left:10px;
 	margin-top:10px;
+	box-shadow: 5px 5px 3px #666666;
 }
 
 .notaSidenav{
-	background-color:#32CD32;
 	min-height:100px;
 	width:70%;
 	margin-left: auto;
@@ -134,6 +160,7 @@ p{
 	margin-top:10px;
 	font-family:"Comic Sans MS", cursive;
 	font-weight:bold;
+	box-shadow: 5px 5px 3px #666666;
 }
 
 
@@ -146,72 +173,19 @@ p{
 }
 
 .modCarona{
-	background-color:#32CD32;
+	background-color:#9DFF9D;
 }
 
 .modFesta{
-	background-color:#DB7093;
+	background-color:#FFA6FF;
 }
 
 .modAcademico{
-	background-color:#6495ED;
+	background-color:#88C4FF;
 }
 
 .modOutros{
-	background-color:#FFD700;
-}
-
-
-
-
-.notaSidenav1{
-	background-color:#DB7093;
-	min-height:100px;
-	width:70%;
-	margin-left: auto;
-	margin-right: auto;	
-	text-align:center;
-	padding-top:20px;
-	margin-top:10px;
-	font-family:"Comic Sans MS", cursive;
-	font-weight:bold;
-}
-
-.notaSidenav2{
-	background-color:#6495ED;
-	min-height:100px;
-	width:70%;
-	margin-left: auto;
-	margin-right: auto;	
-	text-align:center;
-	padding-top:20px;
-	margin-top:10px;
-	font-family:"Comic Sans MS", cursive;
-	font-weight:bold;
-}
-
-.notaSidenav3{
-	background-color:#FFD700;
-	min-height:100px;
-	width:70%;
-	margin-left: auto;
-	margin-right: auto;	
-	text-align:center;
-	padding-top:20px;
-	margin-top:10px;
-	font-family:"Comic Sans MS", cursive;
-	font-weight:bold;
-}
-
-.notaSidenavSair{
-	min-height:100px;
-	width:70%;
-	margin-left: auto;
-	margin-right: auto;	
-	text-align:center;
-	padding-top:20px;
-	margin-top:10px;
-	font-family:"Comic Sans MS", cursive;
+	background-color:#FFFF9D;
 }
 
 #indexLogin{
@@ -221,7 +195,7 @@ p{
 	margin-right: auto;	
 	text-align:center;
 	margin-top:10px;
-	background-image:url(../img/papel.jpg);
+	background-image:url(../img/notav.jpg);
 }
 
 #indexLogin2{
@@ -231,7 +205,7 @@ p{
 	margin-right: auto;	
 	text-align:center;
 	margin-top:10px;
-	background-image:url(../img/papel2.jpg);
+	background-image:url(../img/notaa.jpg);
 }
 
 
@@ -269,10 +243,11 @@ p{
     top: 0;
     left: 0;
     /*background-color: #FF3; /* Black*/
-	background-image:url(../img/background.jpg);
+	background-color:#D4D4D4;
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	text-align:center;
 }
 
 /* Position and style the close button (top right corner) */
@@ -298,13 +273,13 @@ p{
 }
 
 #imgUsu{
-	min-height:240px;
+	min-height:180px;
 	width:80%;
 	margin-left: auto;
 	margin-right: auto;	
 	text-align:center;
 	margin-top:10px;
-	background-image:url(../img/teste.jpg);
+	border-style: solid;
 }
 	
 #categoriaSide{
@@ -334,7 +309,7 @@ p{
 /* -------------------------------------Footer --------------------------------------*/
 
 .footer-distributed{
-	background-image:url(../img/background2.jpg);
+	background-color:#333;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;

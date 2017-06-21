@@ -15,7 +15,18 @@
 		<nav class="navbar navbar-inverse"  id="navBar">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.php"><font color="#000000">Mural IFSP</font></a>
+                    <a class="navbar-brand" href="index.php">
+                    	<a class="navbar-brand" href="index.php">
+                        	<font color="#333333">
+                            	<b>
+                                <font size="+3">
+                            		Mural
+                            	</font> 
+	                        
+                               	<span>IFSP</span>
+                                </b>
+                            </font></a>
+                    </a>
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="index.php">Início</a></li>
@@ -28,7 +39,7 @@
 					  		session_start();
 					  		if(isset($_SESSION["usuario"])){
 								echo "<li><a>".$_SESSION["usuario"]."</a></li>";
-								echo "<li><a href='php/logout.php'><span class='glyphicon glyphicon-log-in'></span> Logout</a></li>";
+								echo "<li><a href='php/logout.php'><span class='glyphicon glyphicon-log-in'></span><b> Logout</b></a></li>";
 							}
 					  ?>
                 </ul>
@@ -38,36 +49,38 @@
               <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                	<?php
-                	echo "<p id='#apelido'>Bem-vindo ".$_SESSION["usuario"]."</p><!--Nome do usuario-->";
+                	echo "<p id='#apelido'>Bem-vindo <b>".$_SESSION["usuario"]."</b></p><!--Nome do usuario-->";
 				?>
-                  <div id="imgUsu">
+                  <div>
                   		<!--Imagem de login do usuario-->
+                        <img src="img/teste.jpg" id="imgUsu" class="img-thumbnail"/>
                   </div>
+                  <br><br>
                   
                   <div id="nomeCategoria">
 					<a data-toggle="tooltip" data-placement="top" title="Cada categoria tem sua cor específica e uma duração">Categoria:</a>
                   </div>
                   
                   <div id="categoriaSide" onclick="addNota(0)">
-                  		<p align="justify" class="notaSidenav">
+                  		<p align="justify" class="notaSidenav modCarona">
                     		Carona<br />
                         </p>
                   </div>
                   
                   <div id="categoriaSide" onclick="addNota(1)">
-                  		<p align="justify" class="notaSidenav1">
+                  		<p align="justify" class="notaSidenav modFesta">
                     		Festa<br />
                     	</p>
                   </div>
                   
                   <div id="categoriaSide" onclick="addNota(2)">
-                  		<p align="justify" class="notaSidenav2">
+                  		<p align="justify" class="notaSidenav modAcademico">
                     		Acadêmico<br />
                     	</p>
                   </div>
                   
                    <div id="categoriaSide" onclick="addNota(3)">
-                  		<p align="justify" class="notaSidenav3">
+                  		<p align="justify" class="notaSidenav modOutros">
                     		Outros<br />
                     	</p>
                   </div>
